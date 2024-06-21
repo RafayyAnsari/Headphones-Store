@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headphones & Music</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Experience Music Like Never Before</h1>
+        <p>Discover the best headphones to elevate your music experience.</p>
+        <button onclick="scrollToSection('products')">Shop Now</button>
+    </header>
+    <section id="products">
+        <h2>Our Headphones</h2>
+        <div class="product">
+            <img src="headphone1.jpg" alt="Headphone Model 1">
+            <h3>Sony HG-5632</h3>
+            <p>Immersive sound quality with noise cancellation.</p>
+            <button onclick="showDetails('model1')">Learn More</button>
+            <div id="model1" class="details">
+                <h4>Sony HG-5632 Details</h4>
+                <p class="justified-text">Sony HG-5632 is the pioneer of our series, featuring a robust design and state-of-the-art technology. It's built for high performance, making it ideal for both beginners and seasoned professionals looking to push their boundaries.</p>
+                <button onclick="hideDetails('model1')">Close</button>
+            </div>
+        </div>
+    
+        <div class="product">
+            <img src="headphone2.jpg" alt="Headphone Model 2">
+            <h3>Sony MG-6734Y</h3>
+            <p class="justified-text">Comfortable design with crystal clear audio.</p>
+            <button onclick="showDetails('model2')">Learn More</button>
+            <div id="model2" class="details">
+                <h4>Sony MG-6734Y Details</h4>
+                <p class="justified-text">Sony MG-6734Y introduces an innovative approach to efficiency, with enhanced features that reduce energy consumption while maximizing output. Its sleek design and user-friendly interface make it a favorite among tech enthusiasts.</p>
+                <button onclick="hideDetails('model2')">Close</button>
+            </div>
+        </div>
+    
+        <div class="product">
+            <img src="headphone3.jpg" alt="Headphone Model 3">
+            <h3>JBL K-6631</h3>
+            <p>JBL Wireless with superior battery life and travel partner.</p>
+            <button onclick="showDetails('model3')">Learn More</button>
+            <div id="model3" class="details">
+                <h4>JBL K-6631 Details</h4>
+                <p class="justified-text">JBL K-6631 stands out with its cutting-edge AI integration, allowing for seamless automation and predictive maintenance. This model is perfect for those who value intelligence and automation in their workflow.</p>
+                <button onclick="hideDetails('model3')">Close</button>
+            </div>
+        </div>
+    
+        <div class="product">
+            <img src="headphone4.jpg" alt="Headphone Model 4">
+            <h3>JBL MS-6734</h3>
+            <p>JBL Compact design with rich bass and comfort for long go.</p>
+            <button onclick="showDetails('model4')">Learn More</button>
+            <div id="model4" class="details">
+                <h4>JBL MS-6734 Details</h4>
+                <p class="justified-text">JBL MS-6734 is the culmination of our series, offering unparalleled precision and adaptability and comfort for long use. It's equipped with the latest sensors and can be customized to fit any industry's specific needs.</p>
+                <button onclick="hideDetails('model4')">Close</button>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial">
+            <p>"The sound quality is unmatched. Best headphones I've ever owned!"</p>
+            <p>- Alex</p>
+        </div>
+        <div class="testimonial">
+            <p>"Super comfortable and the noise cancellation is amazing."</p>
+            <p>- Jamie</p>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>About Us</h3>
+                <p>We offer the best headphones for all your music needs. Experience unparalleled sound quality and comfort.</p>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <p>123 Music Street, Melody City, Soundland</p>
+                <p>Email: support@headphonesmusic.com</p>
+                <p>Phone: +123 456 7890</p>
+            </div>
+            <div class="footer-section social">
+                <h3>Follow Us</h3>
+                <p><a href="#">Facebook</a></p>
+                <p><a href="#">Twitter</a></p>
+                <p><a href="#">Instagram</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Headphones & Music | All Rights Reserved</p>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1d;
+    color: #fff;
+}
+
+header {
+    background: url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fG11c2ljfGVufDB8fHx8MTY0MzQxMjY4MQ&ixlib=rb-1.2.1&q=80&w=1080') no-repeat center center/cover;
+    text-align: center;
+    padding: 100px 20px;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+header button {
+    background-color: #c3073f;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+header button:hover {
+    background-color: #950740;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #1a1a1d;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.product {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    text-align: left;
+    color: #fff;
+    background-color: #6f2232;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product button {
+    display: block;
+    width: 100%;
+    background-color: #c3073f;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.product button:hover {
+    background-color: #950740;
+}
+
+.product {
+    margin-bottom: 40px;
+}
+
+.details {
+    display: none;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    color: #000;
+}
+
+.details.show {
+    display: block;
+}
+
+.justified-text {
+    text-align: justify;
+}
+
+.testimonial {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 400px;
+    text-align: left;
+    color: #000;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    width: 30%;
+}
+
+.footer-bottom {
+    background-color: #222;
+    padding: 10px 0;
+}
+
+.footer-section h3 {
+    margin-bottom: 20px;
+}
+
+.footer-section p, .footer-section a {
+    color: #ccc;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.footer-section a:hover {
+    color: #fff;
+}
